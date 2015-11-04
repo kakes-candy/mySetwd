@@ -9,20 +9,25 @@
 
 
 
-my_setwd <- function() {
+my_setwd <- function(set = TRUE) {
 
     #computernaam vragen om map te kiezen.
     computernaam <- name_computer()
 
+    wd <- NULL
+
     # werkmap instellen obv computernaam
     if(computernaam == "PC03") {
-        setwd("C:/Users/nkakes/workspace/R")
+        wd <- "C:/Users/nkakes/workspace/R"
     }else if(computernaam == "Laptop") {
-            setwd("/home/niels/workspace/R/WeCare")
+        wd <- "/home/niels/workspace/R/WeCare"
     }else if(computernaam== "nielsie-Lenovo-U310") {
-        setwd("/home/nielsie/workspace/R")
+        wd <- "/home/nielsie/workspace/R"
     }else if(computernaam== "LAPTOP-NIELS") {
-        setwd("C:/Users/nkakes/Workspace/R")
-        }
+        wd <- "C:/Users/nkakes/Workspace/R"
+    }
+
+    if(set) {setwd(wd)
+        }else(return(wd))
 }
 
