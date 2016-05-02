@@ -29,8 +29,8 @@ my_setdropbox <- function(subfolder) {
         map_dropbox <- paste0("C:/Users/nkakes/Dropbox", subfolder)
     } else if(computernaam== "Laptop") {
         map_dropbox <- paste0("/home/niels/Dropbox", subfolder)
-    } else if(computernaam== "nielsie-Lenovo-U310") {
-        map_dropbox <- paste0("/home/nielsie/Dropbox", subfolder)
+    } else if(computernaam== "niels-Lenovo-U310") {
+        map_dropbox <- paste0("/home/niels/Dropbox", subfolder)
     } else if (computernaam== "LAPTOP-NIELS") {
         map_dropbox <- paste0("C:/Users/nkakes/Dropbox", subfolder)
     }

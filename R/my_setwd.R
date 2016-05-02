@@ -21,8 +21,8 @@ my_setwd <- function(set = TRUE) {
         wd <- "C:/Users/nkakes/workspace/R"
     }else if(computernaam == "Laptop") {
         wd <- "/home/niels/workspace/R/WeCare"
-    }else if(computernaam== "nielsie-Lenovo-U310") {
-        wd <- "/home/nielsie/workspace/R"
+    }else if(computernaam== "niels-Lenovo-U310") {
+        wd <- "/home/niels/workspace/R"
     }else if(computernaam== "LAPTOP-NIELS") {
         wd <- "C:/Users/nkakes/Workspace/R"
     }
