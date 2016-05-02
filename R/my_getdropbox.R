@@ -22,7 +22,7 @@ my_setdropbox <- function(subfolder) {
     } else if(subfolder == "output") {
         subfolder <- "/04 R/Output"
     } else if(subfolder == "scripts") {
-        subfolder <- "/04 R/Scripts"
+        subfolder <- "/04 R/scripts"
     }
 
     if(computernaam== "PC03") {
